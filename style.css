@@ -33,6 +33,40 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+img{
+    margin-top: 115px;
+}
+
+section{
+    width: 100vw;
+    height: 90vh;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    color: #444;
+    font-family: inherit;
+    font-size: x-large;
+    width: 410px;
+    height: 40px;
+    outline: none;
+    padding:10px;
+    padding-inline-end: 120px;
+    padding-inline-start: 140px;
+    position: relative;
+}
+
+form{
+    display: flex;
+}
+.div-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
 .button-nav {
     background-color:#1a73e8;
     font-weight: 500;
@@ -45,30 +79,4 @@ a{
     padding: 9px 23px;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-section{
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-input {
-    border: none;
-    border-radius: 30px;
-    color: #444;
-    font-family: inherit;
-    font-size: x-large;
-    width: 410px;
-    height: 40px;
-    outline: none;
-    padding-inline-end: 55px;
-    padding-inline-start: 90px;
-    position: relative;
-}
-
-form{
-    display: flex;
 }
