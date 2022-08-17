@@ -2,10 +2,25 @@
     margin: 0;
 }
 body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #444;
 }
 nav{
-    
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    color: #ffffff;
+    font-size: 30px;
 }
 
 section{
