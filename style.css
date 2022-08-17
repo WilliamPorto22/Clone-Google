@@ -3,19 +3,33 @@
 }
 body{
     background-color: #444;
-    display:flex;
-    width:100vh;
-    height:100vh;
+}
+nav{
+    
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    color: #444;
+    font-family: inherit;
+    font-size: x-large;
+    width: 410px;
+    height: 40px;
+    outline: none;
+    padding-inline-end: 55px;
+    padding-inline-start: 90px;
+    position: relative;
 }
 
 form{
-    justify-content: center;
-    align-items: center;
-}
-
-input{
-    width: 66%;
-    height: 5%;
-    color: black;
-    font-size: 24px
+    display: flex;
 }
