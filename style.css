@@ -1,16 +1,22 @@
 *{
     margin: 0;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
 }
+
 body{
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #444;
+    box-sizing: border-box;
 }
+
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    box-sizing: border-box;
 }
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -19,13 +25,31 @@ ul{
 
 li{
     display: flex;
+    font-size: 16px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
     color: #ffffff;
-    font-size: 30px;
+}
+.button-nav {
+    background-color:#1a73e8;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 section{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
